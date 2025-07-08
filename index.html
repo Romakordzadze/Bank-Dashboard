@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Dashboard</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">Romas Bank</div>
+        <div class="user-profile">
+          <div class="profile-pic">RK</div>
+          <div class="user-info">
+            <h3>Roma Kordzadze</h3>
+            <p>Premium Member</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul class="nav-links">
+        <li><a href="index.html#dashboard" class="active">Dashboard</a></li>
+        <li><a href="transactions.html#transactions">Transactions</a></li>
+        <!-- cad transfers da settings მხოლოდ ვიზუალის გამო არის -->
+        <li><a href="#">Cards</a></li>
+        <li><a href="#">Transfers</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div id="dashboard" class="page">
+        <div class="dashboard-grid">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Checking Account</div>
+              <div class="card-icon icon-primary">💳</div>
+            </div>
+            <div class="account-balance">$8,432.50</div>
+            <div class="account-type">Primary Account</div>
+            <div class="account-number">****1234</div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Savings Account</div>
+              <div class="card-icon icon-success">💰</div>
+            </div>
+            <div class="account-balance">$24,567.89</div>
+            <div class="account-type">High Yield Savings</div>
+            <div class="account-number">****5678</div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Credit Card</div>
+              <div class="card-icon icon-warning">🔒</div>
+            </div>
+            <div class="account-balance">$1,234.56</div>
+            <div class="account-type">Available Credit: $8,765.44</div>
+            <div class="account-number">****9012</div>
+          </div>
+
+          <div class="card spending-overview">
+            <div class="card-header">
+              <div class="card-title">Money Spent This Month</div>
+              <div class="card-icon icon-danger">📊</div>
+            </div>
+            <div class="spending-amount">$2,847.32</div>
+            <div class="spending-progress">
+              <div class="spending-bar"></div>
+            </div>
+            <p>68% of monthly budget ($4,200)</p>
+            <div class="spending-breakdown">
+              <div class="spending-item">
+                <div class="spending-item-amount">$890.50</div>
+                <div class="spending-item-label">Groceries</div>
+              </div>
+              <div class="spending-item">
+                <div class="spending-item-amount">$654.20</div>
+                <div class="spending-item-label">Utilities</div>
+              </div>
+              <div class="spending-item">
+                <div class="spending-item-amount">$432.80</div>
+                <div class="spending-item-label">Transport</div>
+              </div>
+              <div class="spending-item">
+                <div class="spending-item-amount">$869.82</div>
+                <div class="spending-item-label">Entertainment</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
